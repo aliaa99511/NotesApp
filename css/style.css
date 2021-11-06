@@ -1,0 +1,81 @@
+
+
+body{
+    background-color: #eee6!important;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px 20px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    font-size: 19px;
+}
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #22c2bf;
+    color: white;
+  }
+  span {
+    font-size: 19px;
+    font-weight: bold;
+}
+.all{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/*******************************************/
+.container{padding: 30px 50px;}
+
+.my-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.inffo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #22c2bf;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+img{
+    width: 21px;
+    height: 21px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 98%;
+    font-size: 18px;
+    color: #495057;
+
+}
+textarea:hover,
+input:hover,
+
+textarea:active, 
+input:active,
+ 
+textarea:focus, 
+input:focus {
+    outline:0px !important;
+}
+.disabl{
+    background-color: #dcdcdc61;
+    border: 1px solid #dcdcdc61;
+}
